@@ -1,0 +1,3 @@
+{"id": "ex1", "model": "my-llm", "output": "It is 4.", "meta": {"temp": 0.0}}
+{"id": "ex2", "model": "my-llm", "output": "The cat sat on a mat and purred softly.", "meta": {"temp": 0.2}}
+{"id": "ex3", "model": "my-llm", "output": "Try 'Automate the Boring Stuff with Python'.", "meta": {"temp": 0.2}}

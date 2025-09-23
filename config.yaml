@@ -1,0 +1,38 @@
+# Evaluation config
+dataset_path: data/examples/qa.jsonl
+generations_path: data/examples/generations.jsonl
+provider: openai   # one of: openai, generic, local
+openai:
+  model: gpt-4o-mini
+  embedding_model: text-embedding-3-large
+  moderation: true
+generic:
+  # POST http provider for a judge endpoint and embeddings endpoint (optional)
+  judge_url: ""
+  embed_url: ""
+  headers: {}
+local:
+  # dotted path to python callable for judge & embed
+  judge_callable: ""
+  embed_callable: ""
+judge:
+  mode: pointwise  # pointwise | pairwise
+  rubric: prompts/rubric_relevance.json
+  anchors: data/examples/anchors.jsonl   # optional for calibration
+metrics:
+  relevance:
+    use_embeddings: true
+    use_lexical: true
+  bias:
+    demographic_axes:
+      gender: ["he","she","they"]
+      religion: ["Hindu","Muslim","Christian","Sikh","Buddhist","Jain"]
+    counterfactual_terms:
+      gender: [["he","she"],["man","woman"],["boy","girl"]]
+  toxicity:
+    enable_moderation: true
+    wordlist_path: prompts/toxicity_terms.txt
+self_consistency:
+  samples_field: "samples"   # optional field in generations.jsonl
+report:
+  out_dir: reports

@@ -1,0 +1,2 @@
+{"prompt": "What is 2+2?", "good": "4", "bad": "5"}
+{"prompt": "Translate 'bonjour' to English.", "good": "hello", "bad": "goodbye"}
