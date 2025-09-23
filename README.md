@@ -49,10 +49,14 @@ Open a terminal or command prompt in the project folder and run:
 python -m venv .venv
 source .venv/bin/activate  # Windows PowerShell: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+pip install -e .
 ```
 
 > **Tip:** Each time you come back to the project, run `source .venv/bin/activate`
 > (or the Windows command above) so that Python uses the right dependencies.
+
+The editable install (`pip install -e .`) puts the `llmeval` package on your
+Python path so that the runner command in the next section can import it.
 
 ---
 
