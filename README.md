@@ -31,8 +31,8 @@ You only need a few things in place:
 
 1. **Python 3.10 or newer** installed on your machine.
 2. **An API key** for the model provider you want to use (OpenAI, Google Gemini,
-   or another HTTP endpoint). If you are running a local model, you will point
-the framework to that instead.
+   Gorq, or another HTTP endpoint). If you are running a local model, you will
+  point the framework to that instead.
 3. **A small dataset** that contains the prompts you want to evaluate and, if you
    have them, the reference answers.
 
@@ -76,6 +76,18 @@ export OPENAI_API_KEY="sk-..."      # Windows PowerShell: $Env:OPENAI_API_KEY = 
    ```bash
    export GEMINI_API_KEY="your-key"  # Windows PowerShell: $Env:GEMINI_API_KEY = "your-key"
    ```
+
+### Gorq
+
+1. Create an API key in the Gorq console.
+2. Set the `GORQ_API_KEY` (and optionally `GORQ_BASE_URL` if you use a proxy):
+
+   ```bash
+   export GORQ_API_KEY="your-key"      # Windows PowerShell: $Env:GORQ_API_KEY = "your-key"
+   ```
+
+   The framework defaults to `https://api.groq.com/openai/v1` for requests. Set
+   `GORQ_BASE_URL` if your deployment lives elsewhere.
 
 ### Other providers or local models
 
@@ -149,13 +161,27 @@ without errors.
 Open `config.yaml` in a text editor. Some common tweaks:
 
 - **Switch providers:** change the `provider` field to `openai`, `gemini`,
-  `generic`, or `local`.
+  `gorq`, `generic`, or `local`.
 - **Update model names:** each provider section (for example the `gemini:` block)
   has fields for the model and embedding model names.
 - **Change datasets:** adjust the paths under `data:` to point to your own JSONL
   files.
 - **Turn checks on or off:** toggle values such as `enable_bias_audit: true` or
   `false`.
+
+### Generate a task starter kit
+
+If you want a ready-made folder structure for a new evaluation (Q&A,
+summarization, coding, legal/KYC, etc.), run:
+
+```bash
+python -m llmeval.runners.create_target_task --task qa --name onboarding
+```
+
+The command creates a folder under `targets/` containing placeholder dataset
+rows, rubric, anchors, and group axes that you can tailor to your data. Replace
+the samples with your real prompts, model outputs, and calibration examples
+before running the evaluation.
 
 Always save the file before running the evaluation again.
 
