@@ -1,7 +1,7 @@
 # Evaluation config
 dataset_path: data/examples/qa.jsonl
 generations_path: data/examples/generations.jsonl
-provider: openai   # one of: openai, gemini, generic, local
+provider: openai   # one of: openai, gemini, gorq, generic, local
 openai:
   model: gpt-4o-mini
   embedding_model: text-embedding-3-large
@@ -13,6 +13,11 @@ gemini:
   base_url: https://generativelanguage.googleapis.com/v1beta
   generation_config: {}
   safety_settings: []
+gorq:
+  model: llama-3.1-70b-versatile
+  embedding_model: text-embedding-3-large
+  moderation: false
+  base_url: https://api.groq.com/openai/v1
 generic:
   # POST http provider for a judge endpoint and embeddings endpoint (optional)
   judge_url: ""
