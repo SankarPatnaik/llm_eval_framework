@@ -1,2 +1,40 @@
 {"prompt": "What is 2+2?", "good": "4", "bad": "5"}
 {"prompt": "Translate 'bonjour' to English.", "good": "hello", "bad": "goodbye"}
+{"prompt": "What is the capital of France?", "good": "Paris", "bad": "Lyon"}
+{"prompt": "What is the chemical symbol for water?", "good": "H2O", "bad": "HO2"}
+{"prompt": "Who wrote 'Pride and Prejudice'?", "good": "Jane Austen", "bad": "Charlotte Brontë"}
+{"prompt": "What is 9×7?", "good": "63", "bad": "56"}
+{"prompt": "Convert 100 centimeters to meters.", "good": "1 meter", "bad": "10 meters"}
+{"prompt": "What planet is known as the Red Planet?", "good": "Mars", "bad": "Jupiter"}
+{"prompt": "What is the square root of 81?", "good": "9", "bad": "8"}
+{"prompt": "What gas do plants primarily absorb during photosynthesis?", "good": "Carbon dioxide", "bad": "Oxygen"}
+{"prompt": "Which ocean is the largest?", "good": "Pacific Ocean", "bad": "Atlantic Ocean"}
+{"prompt": "In what year did the Apollo 11 Moon landing occur?", "good": "1969", "bad": "1972"}
+{"prompt": "What is the boiling point of water at sea level in Celsius?", "good": "100°C", "bad": "90°C"}
+{"prompt": "What is the capital of Japan?", "good": "Tokyo", "bad": "Osaka"}
+{"prompt": "Who painted the Mona Lisa?", "good": "Leonardo da Vinci", "bad": "Vincent van Gogh"}
+{"prompt": "How many continents are there on Earth?", "good": "7", "bad": "6"}
+{"prompt": "What is the largest mammal?", "good": "Blue whale", "bad": "African elephant"}
+{"prompt": "What is the freezing point of water in Fahrenheit?", "good": "32°F", "bad": "0°F"}
+{"prompt": "Who discovered penicillin?", "good": "Alexander Fleming", "bad": "Marie Curie"}
+{"prompt": "What is the capital of India?", "good": "New Delhi", "bad": "Mumbai"}
+{"prompt": "What is 15% of 200?", "good": "30", "bad": "25"}
+{"prompt": "Name the process by which a liquid turns into a gas.", "good": "Evaporation", "bad": "Condensation"}
+{"prompt": "Which metal has the chemical symbol Fe?", "good": "Iron", "bad": "Lead"}
+{"prompt": "How many degrees are in a right angle?", "good": "90", "bad": "45"}
+{"prompt": "What is the tallest mountain in the world (above sea level)?", "good": "Mount Everest", "bad": "K2"}
+{"prompt": "What is the capital of Australia?", "good": "Canberra", "bad": "Sydney"}
+{"prompt": "Who is the author of '1984'?", "good": "George Orwell", "bad": "Aldous Huxley"}
+{"prompt": "What do bees collect to make honey?", "good": "Nectar", "bad": "Pollen"}
+{"prompt": "What is the primary language spoken in Brazil?", "good": "Portuguese", "bad": "Spanish"}
+{"prompt": "Convert 2 hours to minutes.", "good": "120 minutes", "bad": "200 minutes"}
+{"prompt": "What is the currency of the United Kingdom?", "good": "Pound sterling", "bad": "Euro"}
+{"prompt": "Which blood type is known as the universal donor?", "good": "O negative", "bad": "AB positive"}
+{"prompt": "What is the smallest prime number?", "good": "2", "bad": "1"}
+{"prompt": "What is the capital of Canada?", "good": "Ottawa", "bad": "Toronto"}
+{"prompt": "Name the largest internal organ in the human body.", "good": "Liver", "bad": "Lungs"}
+{"prompt": "What is 3 cubed?", "good": "27", "bad": "9"}
+{"prompt": "Which gas is most abundant in Earth's atmosphere?", "good": "Nitrogen", "bad": "Oxygen"}
+{"prompt": "What is the opposite of 'ascent'?", "good": "descent", "bad": "accent"}
+{"prompt": "Translate 'gracias' to English.", "good": "thank you", "bad": "please"}
+{"prompt": "Sort the numbers 5, 2, 9 in ascending order.", "good": "2, 5, 9", "bad": "9, 5, 2"}

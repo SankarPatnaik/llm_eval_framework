@@ -1,3 +1,42 @@
-{"id": "ex1", "model": "my-llm", "output": "It is 4.", "meta": {"temp": 0.0}}
-{"id": "ex2", "model": "my-llm", "output": "The cat sat on a mat and purred softly.", "meta": {"temp": 0.2}}
-{"id": "ex3", "model": "my-llm", "output": "Try 'Automate the Boring Stuff with Python'.", "meta": {"temp": 0.2}}
+{"id": "ex1", "model": "gemini-2.5-flash", "output": "It is 4.", "meta": {"temp": 0.2}}
+{"id": "ex2", "model": "gemini-2.5-flash", "output": "The cat sat on a mat and purred softly.", "meta": {"temp": 0.2}}
+{"id": "ex3", "model": "gemini-2.5-flash", "output": "Try 'Automate the Boring Stuff with Python'.", "meta": {"temp": 0.2}}
+{"id": "ex4", "model": "gemini-2.5-flash", "output": "Paris.", "meta": {"temp": 0.2}}
+{"id": "ex5", "model": "gemini-2.5-flash", "output": "H2O.", "meta": {"temp": 0.2}}
+{"id": "ex6", "model": "gemini-2.5-flash", "output": "Jane Austen.", "meta": {"temp": 0.2}}
+{"id": "ex7", "model": "gemini-2.5-flash", "output": "63.", "meta": {"temp": 0.2}}
+{"id": "ex8", "model": "gemini-2.5-flash", "output": "1 meter.", "meta": {"temp": 0.2}}
+{"id": "ex9", "model": "gemini-2.5-flash", "output": "Mars.", "meta": {"temp": 0.2}}
+{"id": "ex10", "model": "gemini-2.5-flash", "output": "9.", "meta": {"temp": 0.2}}
+{"id": "ex11", "model": "gemini-2.5-flash", "output": "Carbon dioxide.", "meta": {"temp": 0.2}}
+{"id": "ex12", "model": "gemini-2.5-flash", "output": "The Pacific Ocean.", "meta": {"temp": 0.2}}
+{"id": "ex13", "model": "gemini-2.5-flash", "output": "1969.", "meta": {"temp": 0.2}}
+{"id": "ex14", "model": "gemini-2.5-flash", "output": "100°C.", "meta": {"temp": 0.2}}
+{"id": "ex15", "model": "gemini-2.5-flash", "output": "Tokyo.", "meta": {"temp": 0.2}}
+{"id": "ex16", "model": "gemini-2.5-flash", "output": "Leonardo da Vinci.", "meta": {"temp": 0.2}}
+{"id": "ex17", "model": "gemini-2.5-flash", "output": "7.", "meta": {"temp": 0.2}}
+{"id": "ex18", "model": "gemini-2.5-flash", "output": "The blue whale.", "meta": {"temp": 0.2}}
+{"id": "ex19", "model": "gemini-2.5-flash", "output": "32°F.", "meta": {"temp": 0.2}}
+{"id": "ex20", "model": "gemini-2.5-flash", "output": "Alexander Fleming.", "meta": {"temp": 0.2}}
+{"id": "ex21", "model": "gemini-2.5-flash", "output": "New Delhi.", "meta": {"temp": 0.2}}
+{"id": "ex22", "model": "gemini-2.5-flash", "output": "30.", "meta": {"temp": 0.2}}
+{"id": "ex23", "model": "gemini-2.5-flash", "output": "Evaporation.", "meta": {"temp": 0.2}}
+{"id": "ex24", "model": "gemini-2.5-flash", "output": "Iron.", "meta": {"temp": 0.2}}
+{"id": "ex25", "model": "gemini-2.5-flash", "output": "90.", "meta": {"temp": 0.2}}
+{"id": "ex26", "model": "gemini-2.5-flash", "output": "Mount Everest.", "meta": {"temp": 0.2}}
+{"id": "ex27", "model": "gemini-2.5-flash", "output": "Canberra.", "meta": {"temp": 0.2}}
+{"id": "ex28", "model": "gemini-2.5-flash", "output": "George Orwell.", "meta": {"temp": 0.2}}
+{"id": "ex29", "model": "gemini-2.5-flash", "output": "Nectar.", "meta": {"temp": 0.2}}
+{"id": "ex30", "model": "gemini-2.5-flash", "output": "Portuguese.", "meta": {"temp": 0.2}}
+{"id": "ex31", "model": "gemini-2.5-flash", "output": "120 minutes.", "meta": {"temp": 0.2}}
+{"id": "ex32", "model": "gemini-2.5-flash", "output": "Pound sterling.", "meta": {"temp": 0.2}}
+{"id": "ex33", "model": "gemini-2.5-flash", "output": "O negative.", "meta": {"temp": 0.2}}
+{"id": "ex34", "model": "gemini-2.5-flash", "output": "2.", "meta": {"temp": 0.2}}
+{"id": "ex35", "model": "gemini-2.5-flash", "output": "Ottawa.", "meta": {"temp": 0.2}}
+{"id": "ex36", "model": "gemini-2.5-flash", "output": "The liver.", "meta": {"temp": 0.2}}
+{"id": "ex37", "model": "gemini-2.5-flash", "output": "27.", "meta": {"temp": 0.2}}
+{"id": "ex38", "model": "gemini-2.5-flash", "output": "Nitrogen.", "meta": {"temp": 0.2}}
+{"id": "ex39", "model": "gemini-2.5-flash", "output": "descent.", "meta": {"temp": 0.2}}
+{"id": "ex40", "model": "gemini-2.5-flash", "output": "thank you.", "meta": {"temp": 0.2}}
+{"id": "ex41", "model": "gemini-2.5-flash", "output": "2, 5, 9.", "meta": {"temp": 0.2}}
+

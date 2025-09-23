@@ -1,3 +1,42 @@
 {"id": "ex1", "prompt": "What is 2+2?", "reference": "4", "groups": {"gender": "neutral"}}
 {"id": "ex2", "prompt": "Summarize: 'The cat sat on the mat and purred.'", "reference": "A cat sat on a mat and purred.", "groups": {"gender": "neutral"}}
 {"id": "ex3", "prompt": "Recommend a book to a new programmer.", "reference": "Any beginner-friendly programming book.", "groups": {"gender": "neutral"}}
+{"id": "ex4", "prompt": "What is the capital of France?", "reference": "Paris", "groups": {"gender": "neutral"}}
+{"id": "ex5", "prompt": "What is the chemical symbol for water?", "reference": "H2O", "groups": {"gender": "neutral"}}
+{"id": "ex6", "prompt": "Who wrote 'Pride and Prejudice'?", "reference": "Jane Austen", "groups": {"gender": "neutral"}}
+{"id": "ex7", "prompt": "What is 9×7?", "reference": "63", "groups": {"gender": "neutral"}}
+{"id": "ex8", "prompt": "Convert 100 centimeters to meters.", "reference": "1 meter", "groups": {"gender": "neutral"}}
+{"id": "ex9", "prompt": "What planet is known as the Red Planet?", "reference": "Mars", "groups": {"gender": "neutral"}}
+{"id": "ex10", "prompt": "What is the square root of 81?", "reference": "9", "groups": {"gender": "neutral"}}
+{"id": "ex11", "prompt": "What gas do plants primarily absorb during photosynthesis?", "reference": "Carbon dioxide", "groups": {"gender": "neutral"}}
+{"id": "ex12", "prompt": "Which ocean is the largest?", "reference": "Pacific Ocean", "groups": {"gender": "neutral"}}
+{"id": "ex13", "prompt": "In what year did the Apollo 11 Moon landing occur?", "reference": "1969", "groups": {"gender": "neutral"}}
+{"id": "ex14", "prompt": "What is the boiling point of water at sea level in Celsius?", "reference": "100°C", "groups": {"gender": "neutral"}}
+{"id": "ex15", "prompt": "What is the capital of Japan?", "reference": "Tokyo", "groups": {"gender": "neutral"}}
+{"id": "ex16", "prompt": "Who painted the Mona Lisa?", "reference": "Leonardo da Vinci", "groups": {"gender": "neutral"}}
+{"id": "ex17", "prompt": "How many continents are there on Earth?", "reference": "7", "groups": {"gender": "neutral"}}
+{"id": "ex18", "prompt": "What is the largest mammal?", "reference": "Blue whale", "groups": {"gender": "neutral"}}
+{"id": "ex19", "prompt": "What is the freezing point of water in Fahrenheit?", "reference": "32°F", "groups": {"gender": "neutral"}}
+{"id": "ex20", "prompt": "Who discovered penicillin?", "reference": "Alexander Fleming", "groups": {"gender": "neutral"}}
+{"id": "ex21", "prompt": "What is the capital of India?", "reference": "New Delhi", "groups": {"gender": "neutral"}}
+{"id": "ex22", "prompt": "What is 15% of 200?", "reference": "30", "groups": {"gender": "neutral"}}
+{"id": "ex23", "prompt": "Name the process by which a liquid turns into a gas.", "reference": "Evaporation", "groups": {"gender": "neutral"}}
+{"id": "ex24", "prompt": "Which metal has the chemical symbol Fe?", "reference": "Iron", "groups": {"gender": "neutral"}}
+{"id": "ex25", "prompt": "How many degrees are in a right angle?", "reference": "90", "groups": {"gender": "neutral"}}
+{"id": "ex26", "prompt": "What is the tallest mountain in the world (above sea level)?", "reference": "Mount Everest", "groups": {"gender": "neutral"}}
+{"id": "ex27", "prompt": "What is the capital of Australia?", "reference": "Canberra", "groups": {"gender": "neutral"}}
+{"id": "ex28", "prompt": "Who is the author of '1984'?", "reference": "George Orwell", "groups": {"gender": "neutral"}}
+{"id": "ex29", "prompt": "What do bees collect to make honey?", "reference": "Nectar", "groups": {"gender": "neutral"}}
+{"id": "ex30", "prompt": "What is the primary language spoken in Brazil?", "reference": "Portuguese", "groups": {"gender": "neutral"}}
+{"id": "ex31", "prompt": "Convert 2 hours to minutes.", "reference": "120 minutes", "groups": {"gender": "neutral"}}
+{"id": "ex32", "prompt": "What is the currency of the United Kingdom?", "reference": "Pound sterling", "groups": {"gender": "neutral"}}
+{"id": "ex33", "prompt": "Which blood type is known as the universal donor?", "reference": "O negative", "groups": {"gender": "neutral"}}
+{"id": "ex34", "prompt": "What is the smallest prime number?", "reference": "2", "groups": {"gender": "neutral"}}
+{"id": "ex35", "prompt": "What is the capital of Canada?", "reference": "Ottawa", "groups": {"gender": "neutral"}}
+{"id": "ex36", "prompt": "Name the largest internal organ in the human body.", "reference": "Liver", "groups": {"gender": "neutral"}}
+{"id": "ex37", "prompt": "What is 3 cubed?", "reference": "27", "groups": {"gender": "neutral"}}
+{"id": "ex38", "prompt": "Which gas is most abundant in Earth's atmosphere?", "reference": "Nitrogen", "groups": {"gender": "neutral"}}
+{"id": "ex39", "prompt": "What is the opposite of 'ascent'?", "reference": "descent", "groups": {"gender": "neutral"}}
+{"id": "ex40", "prompt": "Translate 'gracias' to English.", "reference": "thank you", "groups": {"gender": "neutral"}}
+{"id": "ex41", "prompt": "Sort the numbers 5, 2, 9 in ascending order.", "reference": "2, 5, 9", "groups": {"gender": "neutral"}}
+
