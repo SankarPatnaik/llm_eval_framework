@@ -1,11 +1,18 @@
 # Evaluation config
 dataset_path: data/examples/qa.jsonl
 generations_path: data/examples/generations.jsonl
-provider: openai   # one of: openai, generic, local
+provider: openai   # one of: openai, gemini, generic, local
 openai:
   model: gpt-4o-mini
   embedding_model: text-embedding-3-large
   moderation: true
+gemini:
+  model: gemini-2.5-flash
+  embedding_model: text-embedding-004
+  # Optional overrides for generation/embedding endpoints
+  base_url: https://generativelanguage.googleapis.com/v1beta
+  generation_config: {}
+  safety_settings: []
 generic:
   # POST http provider for a judge endpoint and embeddings endpoint (optional)
   judge_url: ""

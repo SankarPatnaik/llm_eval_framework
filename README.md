@@ -9,7 +9,7 @@ It supports:
 - **Self-Consistency**: variance across `n` samples.
 - **JSON/CSV outputs** and **HTML report**.
 
-> Providers supported: OpenAI (text + embeddings), generic HTTP (bring your own), local function hook.
+> Providers supported: OpenAI, Google Gemini, generic HTTP (bring your own), local function hook.
 > Set keys via env vars; the CLI never requires Hugging Face.
 
 ## Quick start
@@ -21,6 +21,30 @@ pip install -r requirements.txt
 # Evaluate example dataset with OpenAI (set OPENAI_API_KEY first)
 python -m llmeval.runners.eval --config config.yaml
 ```
+
+### Using Google Gemini
+
+1. Create an API key from [Google AI Studio](https://aistudio.google.com/).
+2. Export it as `GEMINI_API_KEY` (or `GOOGLE_API_KEY`).
+3. Switch the config to use the Gemini adapter:
+
+```yaml
+provider: gemini
+gemini:
+  model: gemini-2.5-flash
+  embedding_model: text-embedding-004
+```
+
+You can override `base_url`, `generation_config`, or `safety_settings` in
+`config.yaml` if you are routing requests through a proxy or need custom
+Gemini safety parameters.
+
+### Open-source or self-hosted models
+
+If you are running an open-source model (e.g. via vLLM, TGI, Ollama) you can
+either expose an HTTP endpoint and use the `generic` provider, or plug in a
+Python callable through the `local` provider. Both approaches let you reuse the
+same evaluation pipeline without depending on proprietary APIs.
 
 ## Data format
 
