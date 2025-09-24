@@ -14,7 +14,16 @@ def main():
     ap.add_argument('--config', required=True)
     args = ap.parse_args()
     import yaml
-    cfg = yaml.safe_load(open(args.config,'r'))
+    from pathlib import Path
+
+    cfg_path = Path(args.config).expanduser()
+    if not cfg_path.exists():
+        ap.error(f"Config file '{cfg_path}' not found.")
+
+    with cfg_path.open("r", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    if cfg is None:
+        ap.error(f"Config file '{cfg_path}' is empty.")
     # provider
     provider = get_provider(cfg.get('provider','openai'), **cfg)
     # rubric
